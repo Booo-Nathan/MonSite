@@ -1,0 +1,116 @@
+#banniere{
+	background-image: url("banniere.png");
+	height: 256px; /* taille horizontale */
+	width: 687px; /* taille verticale */
+	margin: auto; /* centre l'image */
+	margin-bottom: -90px;
+	position: relative;
+	}
+
+nav{
+	padding: 0; /* marge intérieures */ margin: 0; /* marges */
+	text-align: center; /* centre le texte */
+	width: 100%;
+	margin-top: 120px;
+	}
+	
+nav li{
+	display: inline;
+	list-style: none; /* Nécessaire pour IE7 */
+	width: 600px;
+	
+	margin: 0 40 3 40px; /* marge HAUT DROITE BAS GAUCHE */
+	}
+	
+nav a{
+	display: inline-block; /* type d'affichage */
+	background: #2596be;
+	width: 300px;
+	height: 30px;
+	color: #FFF;
+	padding: 5px 50px ;
+	font-family: Open Sans;
+	font-size: 25px;
+	text-decoration:none; 
+	border-radius: 30px;
+	border-style:solid;
+	border-color: black;
+	margin: 0 20px;
+	}
+	
+nav a:hover{ background: gold; }
+
+body{
+	background-color: #B4E5F8; /* couleur de fond */
+	overflow-x: hidden; 
+	}
+
+.boutton{
+	z-index:1;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	margin-left: 96%;
+	margin-top: 15%;
+	}
+
+h1{
+	color: red;
+	font-size: 30px;
+	}
+	
+h2{
+	color: green;
+	font-size: 25px;
+	}
+	
+table{
+	text-align: center;
+	border-collapse: collapse;
+	width: 80%;
+	margin: auto; /* centre le tableau */
+	border-style:solid; 
+	}
+	
+.fond{
+	background-color: white;
+	}
+	
+th,tr,td{
+	border-style:solid; 
+	}
+	
+caption{
+	color: red;
+	font-weight: bold;
+	text-decoration: underline;
+	margin-bottom: 10px;
+	}
+	
+.empty{
+	background-color: #808b96 ;
+	}
+
+.tab-name{
+	background-color: #e67e22;
+	font-weight: bold;
+	}
+	
+.midi{
+	background-color: yellow;
+	}
+
+.space{
+	margin-bottom: 150px;
+	}	
+
+#footer{
+	font-size: 15px;
+	background-color: black;
+	color: white;
+	margin-top: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	}

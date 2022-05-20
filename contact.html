@@ -14,29 +14,45 @@
 	<header>
 		<div id="banniere"></div>
 	
-	<nav> <!-- Menu -->
+
+        <nav>
+            <ul>
+              <li class="deroulant"><a href="#">Accueil &ensp;</a>
+                <ul class="sous">
+                  <li><a href="index.html">Accueil</a></li>
+                  <li><a href="presentation_CV.html">CV</a></li>
+                </ul>
+              </li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#">À propos</a></li>
+            </ul>
+          </nav>
+
+	<!-- <nav>  Menu 
 			<li class="menu"><a href="index.html" >Accueil</a></li>
 			<li class="menu"><a href="presentation_CV.html">Présentation de mon CV</a></li>
 			<li class="menu"><a href="contact.html">Contact</a></li>
-	</nav>
+	</nav> -->
 	
 		<span>
 			<a href="#top"><img src="top.png" class="boutton" alt="Boutton retour en haut"></a> <!-- bouton pour revenir en haut de page -->
 		</span>
 	
 	</header>
-		
-    <h1>Formulaire de contact</h1>
+
+    <div class="conteneur">
+        
+        <h1>Formulaire de contact</h1>
 
     <form action="#">
-        <p><i>Complétez le formulaire. Les champs marqués par <span class="red">*</span> sont <span class="red">obligatoires</span></i></p>
+        <p><i>Complétez le formulaire. Les champs marqués par <span class="red">*</span> sont <span class="red">obligatoires.</span></i></p>
         
         <fieldset> <!-- Fieldset = bordure -->
             <legend>Contact</legend>
             <div>
 
-                <label for="madame"><input id="madame" type="radio" name="madame" value="madame" checked="checked">Madame</label>
-                <label for="monsieur"><input id="monsieur" type="radio" name="monsieur" value="monsieur">Monsieur</label><br>
+                <label for="madame"><input id="madame" type="radio" name="sexe" value="madame" checked="checked">Madame</label>
+                <label for="monsieur"><input id="monsieur" type="radio" name="sexe" value="monsieur">Monsieur</label><br>
 
                 <label for="nom">Nom <span class="red">*</span></label>
                     <input id="nom" placeholder="Nom" autofocus="" required=""> <!-- autofocus : le curseur est positiponné dans cette case au chargement de la page -->
@@ -95,6 +111,8 @@
         <p><input type="submit" value="Soumettre/Envoyer"></p>
 
     </form>
+
+    </div>
 		
 	<footer>
 		<div id="footer">

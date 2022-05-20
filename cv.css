@@ -1,0 +1,256 @@
+body{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+#bblue{ /* Bandeau bleu */
+    color: white;
+    background-color: black ;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    margin-top: -0.3%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+	font-family:Kadwa;
+    }
+    
+#bblack{ /* Bandeau noir */
+    color: white;
+    background-color: #57A6F3;
+    width: 100%;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 0.3%;
+    padding-bottom: 0.3%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+	font-family:Kadwa;
+    }
+	
+#intro{
+	height: 300px;
+	}
+
+.fname{ /* Prénom */
+	font-weight: bold;
+	font-size: 3.5em;
+	font-family:Kadwa;
+	padding-left: 50%;
+	padding-right: 1.5%;
+	}
+
+.name{ /* Nom */
+	font-weight: bold;
+	font-size: 3em;
+	font-family:Kadwa;
+	}
+	
+.picture{ /* Photo */
+    width: 20%;
+	top: 18%;
+	left: 3.5%;
+	position: absolute;
+    }
+   
+.about{ /* Texte à côté de la photo */
+	width: 70%;
+	font-family:Kotta One;
+	font-size: 1.5em;
+	text-align: justify;
+	text-justify: inter-word;
+	position: absolute;
+	top: 29%;
+	padding-left: 25%;
+	}   
+	
+.picture, .about{
+    float: left;
+}
+
+h2{
+	font-family:Kadwa;
+	font-size: 2em;
+	font-weight: bold;
+	padding-left: 7%;
+	text-decoration: underline;
+	}
+	
+
+	
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.left{
+    width: 66%;
+    /* background-color: #E8F9F4; */
+}
+
+.right{
+    width: 34%;
+    /* background-color: #F6E5E5; */
+}
+
+.left, .right{
+    height: 1200px;
+    float: left;
+}
+	
+li{
+	list-style-type: none;
+	font-family:Kadwa;
+	font-size: 1em;
+	line-height: 250%;
+	margin-top: -1.5%;
+	}
+	
+.sub{
+	font-family:Kadwa;
+	font-size: 0.5em;
+	margin-top: -1.8%;
+}
+
+li.interests{
+	list-style-type: none;
+	font-family:Kadwa;
+	font-size: 1em;
+	margin-top: -3.5%;
+}
+
+p.interests{
+	width: 90%;
+	font-family:Kadwa;
+	margin-left: 6%;
+	text-align: justify;
+	text-justify: inter-word;
+	}
+	
+.lcolumn{
+	width: 30%;
+	/* background-color: yellow; */
+	}
+
+.rcolumn{
+	width: 70%;
+	/*background-color: orange; */
+	}
+	
+.lcolumn, .rcolumn{
+	float: left;
+	}
+	
+.date{
+	color: #57A6F3;
+	font-size: 1em;
+	margin-left: 25%;
+	font-weight: bold;
+	font-family:Kadwa;
+	margin-top: 10%;
+	margin-bottom: 12%;
+	}
+	
+.date2{
+	color: #57A6F3;
+	font-size: 1em;
+	margin-left: 25%;
+	font-weight: bold;
+	font-family:Kadwa;
+	margin-top: 10%;
+	margin-bottom: 22.5%;
+	}
+	
+h3{
+	font-family:Kadwa;
+	font-weight: bold;
+	font-size: 1.5em;
+	}
+	
+h4{
+	color: #57A6F3;
+	font-family:Kadwa;
+	font-size: 1em;
+	line-height: 15px;
+	margin-top: -20px;
+	}
+	
+h5{
+	font-family:Kadwa;
+	font-weight: bold;
+	font-size: 1em;
+	text-decoration: underline;
+	margin-top: -10px;
+	}
+	
+.text{
+	font-family:Kadwa;
+	font-size: 1em;
+	line-height: 15px;
+	margin-top: -30px;
+	margin-bottom: 30px;
+	}
+	
+p{
+	font-family:Kadwa;
+	font-size: 1em;
+	}
+	
+.adt{
+	width: 50%;
+	margin-left: 30%;
+	}
+	
+.jc{
+	width: 50%;
+	margin-left: 30%;
+	}
+
+.red{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
+nav{
+	padding: 0; /* marge intérieures */ margin: 0; /* marges */
+	text-align: center; /* centre le texte */
+	width: 100%;
+	margin-top: 120px;
+} 
+	
+nav li{
+	display: inline;
+	list-style: none; /* Nécessaire pour IE7 */
+	width: 600px;
+	
+	margin: 0 40 3 40px; /* marge HAUT DROITE BAS GAUCHE */
+}
+	
+nav a{
+	display: inline-block; /* type d'affichage */
+	background: #2596be;
+	width: 300px;
+	height: 30px;
+	color: #FFF;
+	padding: 5px 50px ;
+	font-family: Open Sans;
+	font-size: 25px;
+	text-decoration:none; 
+	border-radius: 30px;
+	border-style:solid;
+	border-color: black;
+	margin: 0 20px;
+}
+	
+nav a:hover{ background: gold;
+}
